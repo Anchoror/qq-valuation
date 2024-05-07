@@ -1,0 +1,49 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "lint:style": "stylelint \"./**/*.{css,less,vue,html}\" --fix"
+  },
+  "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "@vant/use": "^1.6.0",
+    "ali-oss": "^6.18.0",
+    "axios": "^1.5.0",
+    "echarts": "^5.4.3",
+    "less": "^4.2.0",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "vant": "^4.6.6",
+    "vconsole": "^3.15.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.3",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^9.19.2",
+    "postcss": "^8.4.32",
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "postcss-px-to-viewport-8-plugin": "^1.2.2",
+    "prettier": "^3.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended-less": "^2.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-less": "^2.0.0",
+    "stylelint-order": "^6.0.3",
+    "unplugin-auto-import": "^0.15.3",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.4.9"
+  }
+}
