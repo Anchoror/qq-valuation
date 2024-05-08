@@ -7,7 +7,7 @@ import myAxios from './axios'
  */
 export const getQQMsg = (qq) => {
   return myAxios({
-    url: '/qq',
+    url: '/qq/getQQLevelInfo',
     method: 'get',
     params: { qq }
   })
