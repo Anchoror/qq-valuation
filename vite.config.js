@@ -12,7 +12,7 @@ const prod = process.env.NODE_ENV === 'production'
 
 // https://vitejs.dev/config/
 
-const baseURL = './'
+const baseURL = '/qq-valuation/'
 
 export default ({ mode }) => {
   const env = loadEnv(mode, process.cwd())
