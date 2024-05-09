@@ -4,7 +4,7 @@ import { useUserStore } from '@/stores/user'
 
 const routes = [
   {
-    path: '/',
+    path: '/qq-valuation/',
     name: 'home',
     component: HomeView,
     meta: {
