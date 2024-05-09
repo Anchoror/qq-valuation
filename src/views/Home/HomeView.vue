@@ -13,7 +13,14 @@ const isShrink = ref(true)
 
 /* 账号属性 */
 // 基础信息
-const qqMsg = ref({})
+const qqMsg = ref({
+  avatar: '',
+  name: '未知名称',
+  level: 0,
+  svip: 0,
+  vip: 0,
+  activeday: 0
+})
 // 长度
 const len = ref({
   score: 0,
