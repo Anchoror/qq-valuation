@@ -280,18 +280,21 @@ function longestSymmetricSubstring(qqStr) {
 }
 
 const handleClick = () => {
-  getQQMsg(qq.value).then((res) => {
-    qqMsg.value = {
-      avatar: res.result.sFaceUrl,
-      name: res.result.sNickName || '未知名称',
-      level: res.result.iQQLevel || 0,
-      svip: res.result.iBigClubLevel || 0,
-      vip: res.result.iVipLevel || 0,
-      activeday: res.result.iTotalActiveDay || 0
-    }
-    scoreQQ()
-    isShrink.value = false
-  })
+  // getQQMsg(qq.value).then((res) => {
+  //   qqMsg.value = {
+  //     avatar: res.result.sFaceUrl,
+  //     name: res.result.sNickName || '未知名称',
+  //     level: res.result.iQQLevel || 0,
+  //     svip: res.result.iBigClubLevel || 0,
+  //     vip: res.result.iVipLevel || 0,
+  //     activeday: res.result.iTotalActiveDay || 0
+  //   }
+  //   scoreQQ()
+  //   isShrink.value = false
+  // })
+
+  scoreQQ()
+  isShrink.value = false
 }
 </script>
 
