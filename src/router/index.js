@@ -1,12 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/Home/HomeView.vue'
+import Phone from '../views/Phone/Phone.vue'
 import { useUserStore } from '@/stores/user'
 
 const routes = [
   {
-    path: '/qq-valuation/',
+    path: '/',
+    // path: '/qq-valuation/',
     name: 'home',
-    component: HomeView,
+    component: Phone,
     meta: {
       title: '首页'
     }
